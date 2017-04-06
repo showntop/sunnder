@@ -17,3 +17,6 @@ class SunnderItem(scrapy.Item):
     title = scrapy.Field()
     category = scrapy.Field()
     author = scrapy.Field()
+    tags = scrapy.Field()
+    source_url = scrapy.Field()
+    album = scrapy.Field()
